@@ -32,6 +32,13 @@ body {
 	line-height: 1;
 }
 
+
+
+.column {
+  flex: 50%;
+  
+}
+
 ol, ul {
 	list-style: none;
 }
