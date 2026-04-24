@@ -4013,3 +4013,24 @@ input#inputHiddenContent3:checked ~ span#spanHiddenContent3 {
 input#inputShownContent3:checked ~ #myReadMore p {
     display: none;
 }
+
+
+input#inputHiddenContent4,#inputShownContent4 {
+  display: none;
+}
+
+span#spanHiddenContent4 {
+  display: none;
+}
+
+input#inputShownContent4:checked ~ span#spanHiddenContent4 {
+  display: block;
+}
+
+input#inputHiddenContent4:checked ~ span#spanHiddenContent4 {
+  display: none;
+}
+
+input#inputShownContent4:checked ~ #myReadMore p {
+    display: none;
+}
